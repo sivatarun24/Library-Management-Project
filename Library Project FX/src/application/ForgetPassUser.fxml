@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="508.0" prefWidth="798.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.ForgetPassUserController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="495.0" prefWidth="802.0">
+         <children>
+            <Button fx:id="b1" layoutX="688.0" layoutY="22.0" mnemonicParsing="false" onAction="#Back" prefHeight="49.0" prefWidth="102.0" text="Back" />
+            <Button fx:id="b2" layoutX="477.0" layoutY="197.0" mnemonicParsing="false" onAction="#getPassword" prefHeight="49.0" prefWidth="136.0" text="Get Password" />
+            <TextField fx:id="tff2" layoutX="230.0" layoutY="197.0" prefHeight="41.0" prefWidth="192.0" />
+            <Label layoutX="110.0" layoutY="197.0" prefHeight="41.0" prefWidth="110.0" text="Phone Number:" />
+            <Label layoutX="110.0" layoutY="248.0" prefHeight="41.0" prefWidth="102.0" text="Password:" />
+            <TextField fx:id="tff3" layoutX="230.0" layoutY="248.0" prefHeight="41.0" prefWidth="192.0" />
+            <Button fx:id="b3" layoutX="287.0" layoutY="305.0" mnemonicParsing="false" onAction="#Login" prefHeight="49.0" prefWidth="102.0" text="Login " />
+            <Label fx:id="l" layoutX="33.0" layoutY="410.0" prefHeight="41.0" prefWidth="543.0" text="Note: Phone Number and Id must match ......" />
+            <Label layoutX="110.0" layoutY="141.0" prefHeight="41.0" prefWidth="102.0" text="Enter Id:" />
+            <TextField fx:id="tff1" layoutX="230.0" layoutY="134.0" prefHeight="41.0" prefWidth="192.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
